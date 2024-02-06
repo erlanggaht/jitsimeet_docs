@@ -273,3 +273,29 @@ setelah selesai semua, untuk mejalankan nya ketikan perintah:
 ```
 bin/run.sh
 ```
+
+### Plugin etherpad
+Admin dapat melihat plugin yang tersedia di **localhost:9001/admin/plugins**, 
+
+yang juga memungkinkan Anda memasang atau menghapus plugin. Untuk daftar plugin yang tersedia
+
+
+    Aktifkan antarmuka Admin (edit settings.json)
+    Masuk ke antarmuka admin (yourpad.com/admin)
+    Gunakan antarmuka admin http://youretherpad/admin/plugins
+
+pada umumnya user dan password pada etherpad plugin 
+user: changeme1
+
+## Fabricjs di Jitsi
+
+### 1. buat project dengan fabricjs
+
+bisa menggunakan nextjs, react dll 
+
+### 2. edit component client jitsi 
+
+buat html logic untuk menampilkan iframe di client jitsi dan masukan url 
+
+project fabricjs kedalam iframe tersebut.
+
